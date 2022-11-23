@@ -1,4 +1,4 @@
-package interfaces.segregation.bad;
+package interfaces.segregation.good;
 
 import org.junit.jupiter.api.Test;
 
