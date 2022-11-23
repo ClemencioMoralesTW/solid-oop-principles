@@ -1,19 +1,20 @@
-package interfaces.segregation.bad;
+package interface_segregation.bad;
 
-public class Fish implements Animal{
+public class Duck implements Animal {
+
     @Override
     public String nameOfAnimal() {
-        return "fish";
+        return "duck";
     }
 
     @Override
     public String walk() {
-        return null;
+        return "the " + nameOfAnimal() + " is walking!";
     }
 
     @Override
     public String fly() {
-        return null;
+        return "the " + nameOfAnimal() + " is flying!";
     }
 
     @Override
@@ -28,7 +29,7 @@ public class Fish implements Animal{
 
     @Override
     public String quack() {
-        return null;
+        return "quack!";
     }
 
     @Override

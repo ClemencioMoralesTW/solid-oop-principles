@@ -1,4 +1,4 @@
-package interfaces.segregation.bad;
+package interface_segregation.bad;
 
 public class Dog implements Animal{
     @Override
