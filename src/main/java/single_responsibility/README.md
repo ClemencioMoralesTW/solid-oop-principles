@@ -7,4 +7,4 @@
 ## Exercise
 You are given a "Product" class, and are told to add a new country, France, since you are expanding to the French market. (French VAT is 20%)
 
-You open the class and discover a mess! You decide to refactor this following the Single Responsibility Principle, and add the French VAT functionality.
+You open the class and discover a mess! You decide to refactor this following the Single Responsibility Principle, and add the French VAT functionality. Remember to use TDD!

@@ -5,4 +5,4 @@
 * If you're breaking this, you may also be breaking SRP.
 
 ## Exercise
-You are given an "Animal" interface, which is implemented by a lot of different classes. Your goal is to refactor it, respecting the interface segregation principle.
+You are given an "Animal" interface, which is implemented by a lot of different classes. Your goal is to refactor it, respecting the interface segregation principle. Remember TDD!
