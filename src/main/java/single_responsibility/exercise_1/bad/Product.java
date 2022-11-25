@@ -1,4 +1,4 @@
-package single_responsibility.bad;
+package single_responsibility.exercise_1.bad;
 
 class Product {
     private final String name;
