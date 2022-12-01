@@ -11,4 +11,4 @@
       * It’s very difficult to follow perfectly, it’s something you strive for.
 
 # Excercise
-You have an area calculator, and a bunch of shapes. Everytime you add a shape, you have to add a new method to the AreaCalculator. Refactor so that you can add any shape without having to touch the AreaCalculator. Add a Hexagon shape to test this. 
+You have an area calculator, and a bunch of shapes. Everytime you add a shape, you have to add a new code method to the AreaCalculator. Refactor so that you can add any shape without having to touch the AreaCalculator. Add a Hexagon shape to test this. 

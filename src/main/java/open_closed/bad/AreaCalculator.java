@@ -5,7 +5,10 @@ import static java.lang.Math.pow;
 
 public class AreaCalculator {
 
-    public static double calculateArea(Shape shape) {
+    public static void printArea(Shape shape){
+        System.out.println("The area of the shape is: " + calculateArea(shape));
+    }
+    private static double calculateArea(Shape shape) {
         if (shape instanceof Circle) {
             return PI * pow(((Circle) shape).getRadius(), 2);
         }
