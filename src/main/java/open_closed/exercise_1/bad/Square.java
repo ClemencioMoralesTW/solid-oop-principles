@@ -1,4 +1,4 @@
-package open_closed.bad;
+package open_closed.exercise_1.bad;
 
 public class Square extends Shape {
     private final double side;

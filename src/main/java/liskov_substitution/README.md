@@ -12,9 +12,9 @@
 * This basically inheritance. Classes that use a super class should be able to use subclasses derived from it.
 
 
-# Excercise
+# Excercise 1
 
-The path `src/main/java/liskov_substitution/bad` contains an example that breaks
+The path `src/main/java/liskov_substitution/exercise_1/bad` contains an example that breaks
 Liskov Substitution Principle. It represents a set of accounts that a bank offers:
 
 * `BankingAppWithdrawalService`: Uses an account to withdraw money.
@@ -27,4 +27,3 @@ The fact FixedTermDepositAccount breaks Liskov Substitution Principle (LSP).
 **_Refactor all code in a new package that does not break LSP._**
 
 Hint: It feels like some accounts are withdrawable and others are not...
-
