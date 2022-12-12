@@ -5,6 +5,7 @@
 * If your class is big and is doing too many things, you're probably violating this.
   * Another code smell to look for is logic within models.
 
+
 ## Exercise 1
 You are given a "Product" class, and are told to add a new country, France, since you are expanding to the French market. (French VAT is 20%)
 
