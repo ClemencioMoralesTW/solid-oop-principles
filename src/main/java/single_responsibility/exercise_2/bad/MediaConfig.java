@@ -9,8 +9,9 @@ public class MediaConfig {
     private int imageResolution;
     private int fps;
     private VideoFormat videoFormat;
-    private int duration; //duration of the song or video, in milliseconds
     private AudioFormat audioFormat;
+    private int audioDuration;
+    private int videoDuration;
 
     public MediaConfig(String title,
                        int imageHeight,
@@ -18,7 +19,8 @@ public class MediaConfig {
                        ImageFormat imageFormat,
                        int imageResolution, int fps,
                        VideoFormat videoFormat,
-                       int duration,
+                       int audioDuration,
+                       int videoDuration,
                        AudioFormat audioFormat) {
         this.title = title;
         this.imageHeight = imageHeight;
@@ -27,7 +29,8 @@ public class MediaConfig {
         this.imageResolution = imageResolution;
         this.fps = fps;
         this.videoFormat = videoFormat;
-        this.duration = duration;
+        this.videoDuration = audioDuration;
+        this.audioDuration = videoDuration;
         this.audioFormat = audioFormat;
     }
 
@@ -59,11 +62,15 @@ public class MediaConfig {
         return videoFormat;
     }
 
-    public int getDuration() {
-        return duration;
-    }
-
     public AudioFormat getAudioFormat() {
         return audioFormat;
+    }
+
+    public int getAudioDuration() {
+        return audioDuration;
+    }
+
+    public int getVideoDuration() {
+        return videoDuration;
     }
 }
