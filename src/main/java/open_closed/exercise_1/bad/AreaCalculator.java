@@ -14,7 +14,7 @@ public class AreaCalculator {
         }
 
         if (shape instanceof Rectangle rectangle) {
-            return rectangle.getHeight() * ((Rectangle) shape).getWidth();
+            return rectangle.getLength() * ((Rectangle) shape).getWidth();
         }
 
         if (shape instanceof Square square) {

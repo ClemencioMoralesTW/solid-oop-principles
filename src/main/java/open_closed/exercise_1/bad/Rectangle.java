@@ -9,7 +9,7 @@ public class Rectangle extends Shape {
         this.length = length;
     }
 
-    public double getHeight() {
+    public double getLength() {
         return length;
     }
 
