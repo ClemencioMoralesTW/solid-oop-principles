@@ -30,7 +30,7 @@ public class YearlyInterestAccount {
     public double withdraw(double amount) {
         double amountAfterFees = amount + WITHDRAW_FEE;
         balance -= amountAfterFees;
-        return amount;
+        return balance;
     }
 
     public double applyInterest(int numberOfYears) {

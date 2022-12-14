@@ -28,7 +28,7 @@ public class TransferWithFeesAccount {
     public double withdraw(double amount) {
         double amountAfterFees = amount;
         balance -= amountAfterFees;
-        return amount;
+        return balance;
     }
 
     public double applyInterest(int numberOfMonths) {
