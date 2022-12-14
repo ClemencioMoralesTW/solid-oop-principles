@@ -1,15 +1,13 @@
-package dependency_inversion.excercise_1.good.io.cli;
+package dependency_inversion.excercise_1.good.app.file;
 
 import java.io.*;
 import java.util.Scanner;
 
-public class FileIO implements IO {
-    @Override
+public class FileIO {
     public void printInstructions() {
         System.out.println("Input the file name: ");
     }
 
-    @Override
     public void printResult(String result) {
         try {
             String fileName = "result.txt";
@@ -27,7 +25,6 @@ public class FileIO implements IO {
         }
     }
 
-    @Override
     public String getLine() {
         Scanner scanner = new Scanner(System.in);
         String fileName = scanner.nextLine();

@@ -1,8 +1,6 @@
-package dependency_inversion.excercise_1.good.app;
+package dependency_inversion.excercise_1.good.app.file;
 
 import dependency_inversion.excercise_1.good.BasicCalculator;
-import dependency_inversion.excercise_1.good.io.cli.CLIio;
-import dependency_inversion.excercise_1.good.io.cli.FileIO;
 
 public class CalculatorFileApp {
 

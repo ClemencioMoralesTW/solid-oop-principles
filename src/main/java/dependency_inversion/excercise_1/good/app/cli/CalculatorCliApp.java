@@ -1,7 +1,6 @@
-package dependency_inversion.excercise_1.good.app;
+package dependency_inversion.excercise_1.good.app.cli;
 
 import dependency_inversion.excercise_1.good.BasicCalculator;
-import dependency_inversion.excercise_1.good.io.cli.CLIio;
 
 public class CalculatorCliApp {
 
