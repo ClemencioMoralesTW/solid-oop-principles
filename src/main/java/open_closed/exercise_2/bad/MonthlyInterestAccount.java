@@ -29,7 +29,7 @@ public class MonthlyInterestAccount {
     }
 
     public double withdraw(double amount) {
-        balance -= amount;
+        balance -= amount - WITHDRAW_FEE;
         return balance;
     }
 

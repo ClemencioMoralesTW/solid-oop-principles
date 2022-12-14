@@ -4,7 +4,6 @@ import java.util.UUID;
 
 public class TransferWithFeesAccount {
     private static final double TRANSFER_FEE = 5;
-    private static final double WITHDRAW_FEE = 0;
     private final UUID accountId;
     private double balance;
 
@@ -27,7 +26,7 @@ public class TransferWithFeesAccount {
     }
 
     public double withdraw(double amount) {
-        double amountAfterFees = amount + WITHDRAW_FEE;
+        double amountAfterFees = amount;
         balance -= amountAfterFees;
         return amount;
     }
