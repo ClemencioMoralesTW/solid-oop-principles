@@ -33,8 +33,8 @@ public class YearlyInterestAccount {
         return amount;
     }
 
-    public double applyInterest(int numberOfMonths) {
-        balance = balance + (numberOfMonths * YEARLY_INTEREST * balance);
+    public double applyInterest(int numberOfYears) {
+        balance = balance + (numberOfYears * YEARLY_INTEREST * balance);
         return balance;
     }
 
