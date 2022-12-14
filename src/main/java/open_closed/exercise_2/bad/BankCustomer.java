@@ -38,7 +38,7 @@ public class BankCustomer {
         for (var account : monthlyInterestAccounts) {
             account.applyInterest(numberOfMonths);
         }
-        int numberOfYears = numberOfMonths % 12;
+        int numberOfYears = numberOfMonths / 12;
         for (var account : yearlyInterestAccounts) {
             account.applyInterest(numberOfYears);
         }
