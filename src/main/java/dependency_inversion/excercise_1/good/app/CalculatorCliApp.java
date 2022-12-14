@@ -6,9 +6,10 @@ import dependency_inversion.excercise_1.good.io.cli.CLIio;
 public class CalculatorCliApp {
 
     public static void main(String[] args) {
-        CLIio.printInstructionsForCli();
-        String line = CLIio.getLineFromCli();
+        CLIio commandLineInterface = new CLIio();
+        commandLineInterface.printInstructions();
+        String line = commandLineInterface.getLine();
         String result = BasicCalculator.calculate(line);
-        CLIio.printLineToCli(result);
+        commandLineInterface.printResult(result);
     }
 }
