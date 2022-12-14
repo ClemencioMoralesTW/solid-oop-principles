@@ -34,7 +34,8 @@ public class MonthlyInterestAccount {
     }
 
     public double applyInterest(int numberOfMonths) {
-        balance = balance + (numberOfMonths * MONTHLY_INTEREST * balance);
+        double compoundInterest = java.lang.Math.pow((1 + MONTHLY_INTEREST), numberOfMonths);
+        balance = balance + (compoundInterest * balance);
         return balance;
     }
 

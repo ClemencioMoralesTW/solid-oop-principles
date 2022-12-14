@@ -34,7 +34,8 @@ public class YearlyInterestAccount {
     }
 
     public double applyInterest(int numberOfYears) {
-        balance = balance + (numberOfYears * YEARLY_INTEREST * balance);
+        double compoundInterest = java.lang.Math.pow((1 + YEARLY_INTEREST), numberOfYears);
+        balance = balance + (compoundInterest * balance);
         return balance;
     }
 
