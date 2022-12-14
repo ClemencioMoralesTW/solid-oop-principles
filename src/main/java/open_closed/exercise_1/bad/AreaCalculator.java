@@ -4,11 +4,7 @@ import static java.lang.Math.PI;
 import static java.lang.Math.pow;
 
 public class AreaCalculator {
-
-    public static void printArea(Shape shape){
-        System.out.println("The area of the shape is: " + calculateArea(shape));
-    }
-    private static double calculateArea(Shape shape) {
+    public static double calculateArea(Shape shape) {
         if (shape instanceof Circle circle) {
             return PI * pow(circle.getRadius(), 2);
         }

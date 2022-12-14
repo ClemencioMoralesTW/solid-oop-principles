@@ -10,8 +10,8 @@
     * The goal of the Open/Closed principle encourages us to design our software so we add new features only by adding new code. When this is possible, we have loosely coupled, and thus easily maintainable applications.
       * It’s very difficult to follow perfectly, it’s something you strive for.
 
-# Excercise 1
-You have an area calculator, and a bunch of shapes. Everytime you add a shape, you have to add a new code method to the AreaCalculator. Refactor so that you can add any shape without having to touch the AreaCalculator. Add a Hexagon shape to test this.
+# Exercise 1
+You have an area calculator, and a bunch of shapes. Everytime you add a shape, you have to add new code to a method in the AreaCalculator. Refactor so that you can add any shape without having to touch the AreaCalculator. Add a Hexagon shape to test this.
 
 # Exercise 2
 Your client has several bank accounts. They have hired you, brave consultant, because they notice that every time they add a new account, they have to alter code in other classes in the code base.
