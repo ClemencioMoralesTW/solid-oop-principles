@@ -23,7 +23,8 @@ Liskov Substitution Principle. It represents a set of accounts that a bank offer
   * `SavingsAccount`: Allows deposits and withdrawals.
   * `FixedTermDepositAccount`: Just allows deposits, **and does not allow withdrawals**.
 
-The fact FixedTermDepositAccount breaks Liskov Substitution Principle (LSP). 
-**_Refactor all code in a new package that does not break LSP._**
+The fact FixedTermDepositAccount does not allow withdrawals breaks Liskov Substitution Principle (LSP),
+as long as not every subtype is interchangeable.
+**_Refactor all code in a new package that does not break LSP._** (No need to actually add a balance.)
 
 Hint: It feels like some accounts are withdrawable and others are not...
