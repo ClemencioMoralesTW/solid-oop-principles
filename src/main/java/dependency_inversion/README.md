@@ -27,13 +27,3 @@ This is the core idea behind DDD, so correct application of DIP will help you ap
 ## Exercise 1
 You are given a calculator, which reads a line from the CLI and then performs a basic operation. But what if you wanted to take them from the arguments? Or read from a file?
 Refactor all of these abstractions out of the **BasicCalculator** class.
-
-## Exercise 2
-This is the first part of the [Mars Rover](https://code.google.com/archive/p/marsrovertechchallenge/) kata.
-This reduced application takes a file name from the program arguments and builds a grid and places the rovers on the grid.
-Refactor out all of the file handling in the **MarsRoverRedux** class to facilitate testing.
-
-_Out of scope: The rest of the application. Don't worry about moving the rovers or printing the result!_
-
-## See also
-[This Medium article](https://lahirukarunatilake.medium.com/dependency-inversion-principle-and-ddd-a446f453eb4)
