@@ -1,6 +1,7 @@
 # SOLID OOP principles
 
-Consider watching this video [here](https://www.youtube.com/watch?v=yxf2spbpTSw).
+### Important note:
+**This repository is intended to run under Amazon Corretto version 17.0.5**
 
 ## Single Responsibility Principle (SRP)
 
