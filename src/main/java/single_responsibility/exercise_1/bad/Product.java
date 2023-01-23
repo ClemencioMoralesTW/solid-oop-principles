@@ -1,13 +1,15 @@
 package single_responsibility.exercise_1.bad;
 
-class Product {
+public class Product {
     private final String name;
     private final double price;
     private final double VAT_GERMANY = 0.19;
     private final double VAT_SPAIN = 0.21;
     private final double VAT_UK = 0.2;
 
-    Product(String name, double price, double taxRateSpain, double taxRateUK) {
+    private final double VAT_FRANCE = 0.2;
+
+    public Product(String name, double price) {
         this.name = name;
         this.price = price;
     }
@@ -16,6 +18,7 @@ class Product {
         return switch (country) {
             case GERMANY -> this.price * VAT_GERMANY;
             case SPAIN -> this.price * VAT_SPAIN;
+            case FRANCE -> this.price * VAT_FRANCE;
             case UK ->  this.price * VAT_UK;
         };
     }
@@ -27,6 +30,7 @@ class Product {
     public enum Country {
         GERMANY,
         SPAIN,
+        FRANCE,
         UK
     }
 }
